@@ -39,7 +39,7 @@ constructor(page:Page)
         }
         return false;
     }
-     
+     //---------------
      // Click "My Account" link
     async clickMyAccount(){
         try {

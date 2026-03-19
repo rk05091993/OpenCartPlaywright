@@ -5,8 +5,8 @@ export class RandomDataUtil{
 static getFirstName()
 {
     
-     faker.person.firstName(); //it will dynamically create the proper name of person and so on........
-     return
+     return faker.person.firstName(); //it will dynamically create the proper name of person and so on........
+     
 }
 
 static getlastName()
