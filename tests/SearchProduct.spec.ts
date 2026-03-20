@@ -32,6 +32,7 @@ test.beforeEach(async ({ page }) => {
 
 // Playwright hook - runs after each test (optional cleanup)
 test.afterEach(async ({ page }) => {
+  await page.waitForTimeout(3000);
   await page.close(); // Closes the browser tab after test
 });
 
